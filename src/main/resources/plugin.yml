@@ -1,0 +1,27 @@
+name: GlobalEcho
+version: '0.1.0'
+main: me.paleomnesis.globalEcho.GlobalEcho
+api-version: '1.18'
+authors: [ paleomnesis ]
+commands:
+  adaduyuru:
+    description: Global Echo sistemine ait ana komut
+    usage: /islandannouncement <guide|announcement>
+    permission: globalecho.use
+
+permissions:
+  globalecho.use:
+    description: /islandannouncement komutunu kullanma izni
+    default: true
+
+  globalecho.bypass:
+    description: Cooldown süresini atlamaya izin verir
+    default: op
+
+  globalecho.free:
+    description: Duyuru yaparken para ödememeyi sağlar
+    default: op
+
+  globalecho.reload:
+    description: Eklentiyi yeniden yükleme yetkisi
+    default: op

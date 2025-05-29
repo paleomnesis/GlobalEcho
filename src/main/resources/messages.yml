@@ -1,0 +1,37 @@
+prefix: "<gold><bold>[Global Echo]</bold></gold> "
+
+usage:
+  root:
+    - "<yellow>Usage:</yellow>"
+    - "<gray> /islandannouncement guide </gray> <white>- Learn how the system and formatting works</white>"
+    - "<gray> /islandannouncement announcement <message> </gray> <white>- Send a message to all players</white>"
+  announcement: "<yellow>Usage:</yellow> /islandannouncement announcement <message>"
+
+errors:
+  unknown-sub: "<red>Unknown subcommand: <bold>%sub%</bold></red>"
+  player-only: "<red>This command can only be used by players.</red>"
+  no-permission: "<red>You don't have permission to use this command.</red>"
+
+cooldown:
+  wait: "<red>You must wait %seconds% seconds before sending another announcement.</red>"
+
+economy:
+  insufficient: "<red>You need at least <gold>%cost%</gold> to send an announcement.</red>"
+  fail: "<red>Error: Failed to process the payment.</red>"
+
+reload:
+  success: "<green>GlobalEcho was successfully reloaded.</green>"
+
+guide:
+  - "<gold><bold>GlobalEcho Guide</bold></gold>"
+  - "<gray>This system allows you to broadcast server-wide messages with custom formatting.</gray>"
+  - ""
+  - "<yellow>Command:</yellow> <white>/islandannouncement announcement <message></white>"
+  - ""
+  - "<yellow>Formatting Examples:</yellow>"
+  - "• <gray><bold>Bold Text</bold></gray>: <white><bold>Use the bold tag to make text bold.</bold></white>"
+  - "• <gray><italic>Italic Text</italic></gray>: <white><italic>Use the italic tag for italic text.</italic></white>"
+  - "• <gray><color:#00ffaa>Colored Text</color></gray>: <white><color:#00ffaa>Use a hex color code like this to color text.</color></white>"
+  - ""
+  - "<gray><italic>Note:</italic> GlobalEcho uses <white>MiniMessage</white> formatting. Instead of <white>&</white> codes, use proper tags inside <white><></white>.</gray>"
+  - ""

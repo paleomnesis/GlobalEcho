@@ -1,0 +1,12 @@
+message:
+  header: "<bold><gradient:#ffcc00:#ffaa00>Duyuru - %player%</gradient></bold>"
+  body: "<gray>%message%</gray>"
+
+cooldown:
+  enabled: true
+  seconds: 60
+
+economy:
+  enabled: true
+  cost: 100.0
+  currency-symbol: "$"
