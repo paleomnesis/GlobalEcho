@@ -4,7 +4,7 @@ main: me.paleomnesis.globalEcho.GlobalEcho
 api-version: '1.18'
 authors: [ paleomnesis ]
 commands:
-  adaduyuru:
+  islandannouncement:
     description: Global Echo sistemine ait ana komut
     usage: /islandannouncement <guide|announcement>
     permission: globalecho.use
